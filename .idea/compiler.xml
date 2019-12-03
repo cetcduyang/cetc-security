@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cetc-security-demo" />
+        <module name="gateway" />
+        <module name="commons" />
+        <module name="order" />
+        <module name="auth" />
+        <module name="eureka" />
+        <module name="cetc-security-browser" />
+        <module name="base" />
+        <module name="cetc-security-app" />
+        <module name="user" />
+        <module name="cetc-security-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth" target="1.8" />
+      <module name="client1" target="1.8" />
+      <module name="client2" target="1.8" />
+      <module name="sso-demo" target="1.8" />
+      <module name="ssoserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
+      <module name="base" options="-parameters" />
+      <module name="cetc-security-app" options="-parameters" />
+      <module name="cetc-security-browser" options="-parameters" />
+      <module name="cetc-security-core" options="-parameters" />
+      <module name="cetc-security-demo" options="-parameters" />
+      <module name="client1" options="-parameters" />
+      <module name="client2" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="ssoserver" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>

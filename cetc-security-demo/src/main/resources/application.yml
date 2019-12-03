@@ -1,0 +1,72 @@
+server:
+  port: 8060
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    session:
+      timeout: 600
+      cookie:
+        name: UISESSION
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+      name: mysql_base
+      #HikariCP 2.0自带的连接池速度最快，阿里的扩展性最好，速度比C3P0快
+      #type: org.apache.ibatis.datasource.pooled.PooledDataSource
+      type: com.alibaba.druid.pool.DruidDataSource
+      druid:
+        #4大属性
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/mysql_base?userUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=UTC
+        username: root
+        password: 123456
+        #连接池配置 初始化大小、最小、最大
+        initial-size: 1
+        min-idle: 1
+        max-active: 20
+        #连接超时等待时间
+        max-wait: 30000
+        #检测需要管理的空闲连接
+        time-between-eviction-runs-millis: 30000
+        #一个连接在池中最小生存的时间
+        min-evictable-idle-time-millis: 30000
+        validation-query: select '1'
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        #PSCache oracle设为true，mysql设为false。分库分表较多推荐设置为false
+        pool-prepared-statements: false
+        max-pool-prepared-statement-per-connection-size: 20
+  session:
+    store-type: redis
+  security:
+    user:
+      password: 123456
+
+
+#cetc:
+#  security:
+#    browser:
+#      loginPage: /demo_login.html
+cetc:
+  security:
+    browser:
+      signUpUrl: /demo_signUp.html
+      logoutSuccessUrl: /logout.html
+    social:
+      qq:
+        appId: 234hiuhu
+        appSecret: hkuhufd
+      weixin:
+        appId: wxd99431bbff8305a0
+        appSecret: 60f78681d063590a469f1b297feff3c4
+      filterProcessesUrl: /qqLogin
+security:
+  oauth2:
+    client:
+      client-id: cetc_pipi
+      client-secret: cetc_secret
+      registered-redirect-uri: https://www.baidu.com
+      scope: admin,read,write
