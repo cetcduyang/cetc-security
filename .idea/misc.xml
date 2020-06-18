@@ -19,6 +19,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/../base/generator-tool/pom.xml" />
+        <option value="$PROJECT_DIR$/../base/pom.xml" />
         <option value="$PROJECT_DIR$/../sso-demo/client1/pom.xml" />
         <option value="$PROJECT_DIR$/../sso-demo/client2/pom.xml" />
         <option value="$PROJECT_DIR$/../sso-demo/sso-server/pom.xml" />
