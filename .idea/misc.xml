@@ -6,16 +6,19 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../user/pom.xml" />
-        <option value="$PROJECT_DIR$/../commons/pom.xml" />
         <option value="$PROJECT_DIR$/../base/pom.xml" />
         <option value="$PROJECT_DIR$/../stock/pom.xml" />
         <option value="$PROJECT_DIR$/../order/pom.xml" />
         <option value="$PROJECT_DIR$/../gateway/pom.xml" />
         <option value="$PROJECT_DIR$/../eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/../generatortool/pom.xml" />
+        <option value="$PROJECT_DIR$/../util/pom.xml" />
+        <option value="$PROJECT_DIR$/../web_base/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../base/generator-tool/pom.xml" />
         <option value="$PROJECT_DIR$/../sso-demo/client1/pom.xml" />
         <option value="$PROJECT_DIR$/../sso-demo/client2/pom.xml" />
         <option value="$PROJECT_DIR$/../sso-demo/sso-server/pom.xml" />

@@ -9,6 +9,7 @@ E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\c
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\properties\QQProperties.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\sms\SmsCodeProcessor.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\CetcConnectedView.java
+E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\authentication\CetcAuthorizeConfigProvider.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\ValidateCodeStrategy.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\authentication\mobile\SmsCodeAuthenticationToken.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\SocialConfig.java
@@ -18,6 +19,7 @@ E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\c
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\support\SocialUserInfo.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\sms\DefaultSmsCodeSender.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\weixin\api\Weixin.java
+E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\authentication\AuthorizeConfigManager.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\weixin\config\WeixinAutoConfiguration.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\ValidateCodeController.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\image\ImageCodeGenerator.java
@@ -43,6 +45,7 @@ E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\c
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\CetcConnectionStatusView.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\qq\config\QQAutoConfig.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\properties\BrowserProperties.java
+E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\authentication\AuthorizeConfigProvider.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\qq\connect\QQAdapter.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\weixin\api\WeixinUserInfo.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\ValidateCodeProcessorHolder.java
@@ -54,6 +57,7 @@ E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\c
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\qq\connect\QQOAuth2Template.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\SocialAuthenticationFilterPostProcessor.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\sms\SmsCodeGenerator.java
+E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\authentication\CetcAuthorizeConfigManager.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\validate\code\image\ImageCodeProcessor.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\properties\ImageCodeProperties.java
 E:\java projects\javaSpringCloud\cetcsecurity\cetc-security-core\src\main\java\com\cetc\security\core\social\weixin\connect\WeixinServiceProvider.java

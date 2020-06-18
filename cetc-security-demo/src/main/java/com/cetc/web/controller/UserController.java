@@ -2,7 +2,7 @@ package com.cetc.web.controller;
 
 
 import com.cetc.commons.entity.User;
-import com.cetc.security.app.social.AppSignInUtils;
+//import com.cetc.security.app.social.AppSignInUtils;
 import com.fasterxml.jackson.annotation.JsonView;
 //import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,15 +23,15 @@ public class UserController {
 
     @Autowired
     private ProviderSignInUtils providerSignInUtils;
-    @Autowired
-    private AppSignInUtils signInUtils;
+//    @Autowired
+//    private AppSignInUtils signInUtils;
 
     @PostMapping("/regist")
     public void regit(User user, HttpServletRequest request){
        String userId = user.getUserName();
         System.out.println("regist START");
-//       providerSignInUtils.doPostSignUp(userId,new ServletWebRequest(request));
-        signInUtils.doPostSignUp(new ServletWebRequest(request),userId);
+       providerSignInUtils.doPostSignUp(userId,new ServletWebRequest(request));
+      //  signInUtils.doPostSignUp(new ServletWebRequest(request),userId);
        System.out.println("regist over");
     }
 

@@ -3,9 +3,13 @@ package com.cetc.security.browser.validate.code.impl;
 import com.cetc.security.core.validate.code.ValidateCode;
 import com.cetc.security.core.validate.code.ValidateCodeStrategy;
 import com.cetc.security.core.validate.code.ValidateCodeType;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
+
+import javax.annotation.Resource;
 
 @Component
 public class SessionValidateCodeStrategy implements ValidateCodeStrategy {
@@ -14,7 +18,7 @@ public class SessionValidateCodeStrategy implements ValidateCodeStrategy {
      */
     String SESSION_KEY_PREFIX = "SESSION_KEY_FOR_CODE_";
 
-    private SessionStrategy sessionStrategy;
+    private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
 
     /**
      * 构建验证码放入session时的key
