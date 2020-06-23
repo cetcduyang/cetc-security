@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cetc-security-demo" />
-        <module name="gateway" />
-        <module name="generatortool" />
-        <module name="web_base" />
-        <module name="order" />
-        <module name="cetc-security-app" />
-        <module name="auth" />
-        <module name="eureka" />
-        <module name="util" />
-        <module name="cetc-security-core" />
         <module name="home" />
+        <module name="web_base" />
+        <module name="gateway" />
+        <module name="util" />
+        <module name="cetc-security-demo" />
+        <module name="auth" />
+        <module name="generatortool" />
+        <module name="order" />
         <module name="cetc-security-browser" />
+        <module name="stock" />
+        <module name="eureka" />
+        <module name="cetc-security-core" />
         <module name="user" />
+        <module name="cetc-security-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +42,7 @@
       <module name="generatortool" options="" />
       <module name="home" options="-parameters" />
       <module name="order" options="-parameters" />
+      <module name="stock" options="-parameters" />
       <module name="user" options="-parameters" />
       <module name="util" options="" />
       <module name="web" options="-parameters" />

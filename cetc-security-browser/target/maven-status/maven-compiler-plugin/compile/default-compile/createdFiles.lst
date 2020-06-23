@@ -1,2 +1,12 @@
 com\cetc\security\browser\validate\code\impl\SessionValidateCodeStrategy.class
+com\cetc\security\browser\authentication\MyPasswordEncoder.class
+com\cetc\security\browser\BrowserSecurityConfig.class
+com\cetc\security\browser\session\AbstractSessionStrategy.class
+com\cetc\security\browser\session\CetcInvalidSessionStrategy.class
+com\cetc\security\browser\BrowserSecurityController.class
+com\cetc\security\browser\authentication\CetcAuthenticationFailureHandler.class
 com\cetc\security\browser\logout\CetcLogoutSuccessHandler.class
+com\cetc\security\browser\BrowserSecurityBeanConfig.class
+com\cetc\security\browser\BrowserConnectController.class
+com\cetc\security\browser\authentication\CetcAuthenticationSuccessHandler.class
+com\cetc\security\browser\session\CetcExpiredSessionStrategy.class
